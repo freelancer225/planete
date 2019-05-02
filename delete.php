@@ -40,7 +40,7 @@
 		<div class="row">
 			
 			<h1><strong>Supprimer un habitant</strong></h1><br>
-			<form class="form" action="delet.php" method="post" role="form" style = "font-family: 'montserrat'; ">
+			<form class="form" action="delete.php" method="post" role="form" style = "font-family: 'montserrat'; ">
 			<input type="hidden" name="id" value="<?php echo $id;?>"/>
 			<p class="alert alert-warning"> Etes vous sur de vouloir supprimer?</p>
 			<div class="form-actions">
